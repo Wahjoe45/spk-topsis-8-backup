@@ -29,10 +29,10 @@
 						<div class="nav-wrapper">
 
 								<ul class="left" style="margin-left: -52px;">
-									<li><a href="index.php">HOME</a></li>
-									<li><a class="active" href="rekomendasi.php">REKOMENDASI</a></li>
-                                    <li><a href="daftar_hp.php">DAFTAR SMARTPHONE</a></li>
-                                    <li><a href="#about">TENTANG</a></li>
+                                    <li><a class="active" href="index.php">HOME</a></li>
+									<li><a href="rekomendasi.php">CARI SMARTPHONE</a></li>
+									<li><a href="daftar_hp.php">LIST SMARTPHONE</a></li>
+									<li><a href="#about">DESKRIPSI</a></li>
 								</ul>
 						</div>
 					
@@ -41,7 +41,7 @@
 		</div>
 		<!-- Body Start -->
 
-		<!-- Daftar Laptop Start -->
+		<!-- Daftar HP Start -->
         <div style="background-color: #efefef">
             <div class="container">
                 <div class="section-card" style="padding: 32px 0px 20px 0px">
@@ -54,18 +54,18 @@
                                     <div class="card">
                                         <div class="card-content">
                                             <div class="row">
-                                                <center><h4>Masukan Bobot</h4></center>
+                                                <center><h4>Masukkan Deskripsi HP</h4></center>
                                                 <br>
                                                 <form class = "col s12" method="POST" action="hasil.php">
                                                     <div class = "row">
                                                         <div class="col s12">
 
                                                             <div class="col s6" style="margin-top: 10px;">
-                                                                <b>Kriteria Harga</b>
+                                                                <b>Masukkan Range Harga</b>
                                                             </div>
                                                             <div class="col s6">
                                                                 <select required name="harga">
-                                                                    <option value = "" disabled selected style="color: #eceff1;"><i>Kriteria Harga</i></option>
+                                                                    <option value = "" disabled selected style="color: #eceff1;"><i>Range Harga</i></option>
                                                                     <option value = "5">< Rp. 1.000.000</option>
                                                                     <option value = "4">1.000.000 - 3.000.000</option>
                                                                     <option value = "3">3.000.000 - 4.000.000</option>
@@ -75,11 +75,11 @@
                                                             </div>
 
                                                             <div class="col s6" style="margin-top: 10px;">
-                                                            <b>RAM</b>
+                                                            <b>Pilih RAM</b>
                                                             </div>
                                                             <div class="col s6">
                                                                 <select required name="ram">
-                                                                    <option value = "" disabled selected>Kriteria RAM</option> 
+                                                                    <option value = "" disabled selected>Pilihan RAM</option> 
                                                                     <option value = "1">0 - 1 Gb</option>
                                                                     <option value = "2">2 Gb</option>
                                                                     <option value = "3">3 Gb</option>
@@ -89,11 +89,11 @@
                                                             </div>
 
                                                             <div class="col s6" style="margin-top: 10px;">
-                                                                <b>Memori</b>
+                                                                <b>Kapasitas Memori</b>
                                                             </div>
                                                             <div class="col s6">
                                                                 <select required name="memori">
-                                                                    <option value = "" disabled selected>Kriteria Penyimpanan</option>
+                                                                    <option value = "" disabled selected>Total Penyimpanan</option>
                                                                     <option value = "1">0 - 4 Gb</option>
                                                                     <option value = "2">8 Gb</option>
                                                                     <option value = "3">16 Gb</option>
@@ -127,7 +127,7 @@
                                                             </div>
                                                             
                                                         </div>  
-                                                    <center><button type="submit" class="waves-effect waves-light btn" style="margin-bottom:-46px;">Hitung</button></center>	
+                                                    <center><button type="submit" class="waves-effect waves-light btn" style="margin-bottom:-46px;">Mulai Perhitungan</button></center>	
                                                 </form>       
                                             </div>
                                         </div>
@@ -141,17 +141,17 @@
                 </div>
             </div>
         </div>
-        <!-- Rekomendasi Laptop End -->
+        <!-- Rekomendasi HP End -->
 
     <!-- Modal Start -->
 	<div id="about" class="modal">
         <div class="modal-content">
-          <h4>Tentang</h4>
-          <p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-				Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo Madura. <br>
+          <h4>Deskripsi Aplikasi</h4>
+          <p>Aplikasi Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun dengan menggunakan bahasa pemorgraman PHP.
+				Sistem ini dibuat sebagai nilai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Politeknik Negeri Malang.  <br>
 				<br>
-				1. Zulfi Osman<br>
-				2. Wahid Arinanto Nugroho <a href="https://wahidari.gitlab.io/"> (Gitlab)</a><br>
+				1. ARYA WAHJOE SETIAWAN<br>
+				2. KHOFIFAH AMANDA <br>
 			</p>
         </div>
         <div class="modal-footer">
@@ -165,7 +165,7 @@
     <!-- Footer Start -->
 	<div class="footer-copyright" style="padding: 0px 0px; background-color: white">
       <div class="container">
-        <p align="center" style="color: #999">&copy; Sistem Pendukung Keputusan Pemilihan Smartphone 2018.</p>
+        <p align="center" style="color: #999">&copy; Aplikasi Sistem Pendukung Keputusan Pemilihan Smartphone 2023.</p>
       </div>
     </div>
     <!-- Footer End -->

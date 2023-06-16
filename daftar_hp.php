@@ -137,10 +137,10 @@ include('koneksi.php');
 					
 						<div class="nav-wrapper">
 								<ul class="left" style="margin-left: -52px;">
-									<li><a href="index.php">HOME</a></li>
-									<li><a href="rekomendasi.php">REKOMENDASI</a></li>
-									<li><a class="active" href="daftar_hp.php">DAFTAR SMARTPHONE</a></li>
-									<li><a href="#about">TENTANG</a></li>
+								<li><a class="active" href="index.php">HOME</a></li>
+									<li><a href="rekomendasi.php">CARI SMARTPHONE</a></li>
+									<li><a href="daftar_hp.php">LIST SMARTPHONE</a></li>
+									<li><a href="#about">DESKRIPSI</a></li>
 								</ul>
 						</div>
 					
@@ -163,10 +163,10 @@ include('koneksi.php');
 											<thead style="border-top: 1px solid #d0d0d0;">
 												<tr>
 													<th><center>No </center></th>
-													<th><center>Nama HP</center></th>
+													<th><center>Merk HP</center></th>
 													<th><center>Harga HP</center></th>
 													<th><center>RAM HP</center></th>
-													<th><center>Memori HP</center></th>
+													<th><center>Kapasitas Memori HP</center></th>
 													<th><center>Processor HP</center></th>
 													<th><center>Kamera HP</center></th>
 													<th><center>Hapus</center></th>
@@ -221,7 +221,7 @@ include('koneksi.php');
 						<div class="row">
 							<div class="card">
 								<div class="card-content" style="padding-top: 10px;">
-									<center><h5 style="margin-bottom: 10px;">Analisa Smartphone</h5></center>
+									<center><h5 style="margin-bottom: 10px;">Perhitungan Smartphone</h5></center>
 									<table class="responsive-table">
 									
 											<thead style="border-top: 1px solid #d0d0d0;">
@@ -275,7 +275,7 @@ include('koneksi.php');
 									<div class="col s12">
 
 										<div class="col s6" style="margin-top: 10px;">
-											<b>Nama</b>
+											<b>Merk</b>
 										</div>
 										<div class="col s6">
 											<input style="height: 2rem;" name="nama" type="text" required>
@@ -356,12 +356,12 @@ include('koneksi.php');
 	<!-- Modal Start -->
 	<div id="about" class="modal">
 		<div class="modal-content">
-			<h4>Tentang</h4>
-			<p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-			Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo Madura. <br>
+			<h4>Deskripsi Aplikasi</h4>
+			<p>Aplikasi Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun dengan menggunakan bahasa pemorgraman PHP.
+				Sistem ini dibuat sebagai nilai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Politeknik Negeri Malang.  <br>
 			<br>
-			1. Zulfi Osman<br>
-			2. Wahid Arinanto Nugroho <a href="https://wahidari.gitlab.io/"> (Gitlab)</a><br>
+			1. ARYA WAHJOE SETIAWAN<br>
+		    2. KHOFIFAH AMANDA <br>
 		</p>
 		</div>
 		<div class="modal-footer">
@@ -375,7 +375,7 @@ include('koneksi.php');
     <!-- Footer Start -->
 	<div class="footer-copyright" style="padding: 0px 0px; background-color: white">
       <div class="container">
-        <p align="center" style="color: #999">&copy; Sistem Pendukung Keputusan Pemilihan Smartphone 2018.</p>
+        <p align="center" style="color: #999">&copy; Aplikasi Sistem Pendukung Keputusan Pemilihan Smartphone 2023.</p>
       </div>
     </div>
     <!-- Footer End -->

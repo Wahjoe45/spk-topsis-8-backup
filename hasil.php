@@ -57,7 +57,7 @@ function JarakIplus($aplus,$bob){
 <html>
 <head>
 	
-	<title>Sistem Pendukung Keputusan Pemilihan Smartphone</title>
+	<title>Aplikasi Sistem Pendukung Keputusan Pemilihan Smartphone</title>
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
@@ -85,11 +85,10 @@ function JarakIplus($aplus,$bob){
 
 				<div class="nav-wrapper">
 					<ul class="left" style="margin-left: -52px;">
-						<li><a href="index.php">HOME</a></li>
-						<li><a href="rekomendasi.php">REKOMENDASI</a></li>
-						<li><a href="daftar_hp.php">DAFTAR SMARTPHONE</a></li>
-						<li><a class="active" href="hasil.php">PERHITUNGAN</a></li>
-						<li><a href="#about">TENTANG</a></li>
+					<li><a class="active" href="index.php">HOME</a></li>
+									<li><a href="rekomendasi.php">CARI SMARTPHONE</a></li>
+									<li><a href="daftar_hp.php">LIST SMARTPHONE</a></li>
+									<li><a href="#about">DESKRIPSI</a></li>
 					</ul>
 				</div>
 
@@ -106,7 +105,7 @@ function JarakIplus($aplus,$bob){
 
 
 				<center>
-					<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">HASIL REKOMENDASI SMARTPHONE</h4>
+					<h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">HASIL PERHITUNGAN REKOMENDASI SMARTPHONE</h4>
 				</center>
 				<ul>
 					<li>
@@ -506,12 +505,12 @@ function JarakIplus($aplus,$bob){
 		<!-- Modal Start -->
 		<div id="about" class="modal">
 			<div class="modal-content">
-				<h4>Tentang</h4>
-				<p>Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-					Sistem ini dibuat sebagai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Universitas Trunojoyo Madura. <br>
+				<h4>Deskripsi Aplikasi</h4>
+				<p>Aplikasi Sistem Pendukung Keputusan Pemilihan Smartphone ini menggunakan metode TOPSIS yang dibangun dengan menggunakan bahasa pemorgraman PHP.
+				Sistem ini dibuat sebagai nilai Tugas Akhir Mata Kuliah Sistem Pendukung Keputusan Prodi Teknik Informatika Politeknik Negeri Malang.  <br>
 					<br>
-					1. Zulfi Osman<br>
-					2. Wahid Arinanto Nugroho <a href="https://wahidari.gitlab.io/"> (Gitlab)</a><br>
+					1. ARYA WAHJOE SETIAWAN<br>
+				    2. KHOFIFAH AMANDA <br>
 				</p>
 			</div>
 			<div class="modal-footer">
@@ -525,7 +524,7 @@ function JarakIplus($aplus,$bob){
 		<!-- Footer Start -->
 		<div class="footer-copyright" style="padding: 0px 0px; background-color: white">
 			<div class="container">
-				<p align="center" style="color: #999">&copy; Sistem Pendukung Keputusan Pemilihan Smartphone 2018.</p>
+				<p align="center" style="color: #999">&copy; Aplikasi Sistem Pendukung Keputusan Pemilihan Smartphone 2023.</p>
 			</div>
 		</div>
 		<!-- Footer End -->
